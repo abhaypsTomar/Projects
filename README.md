@@ -1,4 +1,4 @@
-# Projects
+
 <h1>Movie Site Project</h1>
 This is a simple movie site project that allows users to browse and discover information about movies. Users can view a list of movies, search for specific movies, and get details about each movie, including its title, release date, cast, and a brief description.
 

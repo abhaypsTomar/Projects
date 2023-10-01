@@ -5,8 +5,8 @@
     padding:0;
 }
 .sidebar{
-    background-color: rgb(168, 165,165) ;
-    width:15vw;
+    background-color: rgb(223, 218, 218) ;
+    width:434px;
     font-family: 'Fira Sans',sans-serif ;
     height: 100vh;
 }
@@ -17,6 +17,11 @@
     list-style-type: none;
     font-size: 30px ;
     padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+
 }
 .main{
     /* background-color: yellow; */
@@ -57,6 +62,7 @@
 .moreabout{
     font-size: 22px;
     font-family: 'Fira Sans',sans-serif ;
+    margin-top: 23px;
 }
 .buttons{
     margin-top: 34px;
@@ -76,7 +82,61 @@
     color:dodgerblue;
     background-color: white;
 }
+.btn{
+    padding: 5px 10px;
+    border-radius: 22px;
+    color:white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    color:dodgerblue;
+    background-color: white;
+}
 .devPic img{
     height:58vh;
   
+}
+.contactform{
+    padding-top:144px;
+    padding:0 34px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.contactform h1{
+    font-family: 'Source Code Pro' , monospace;
+    padding:;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+     font-size: 8px;
+     color: midnightblue;
+     margin:0 5px;
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width:24px;
+    margin: 3px 0;
+}
+
+@media (max-width: 1615px){
+    .sidebar{
+        transform: translate(-443px ,0px);
+        position:absolute;
+    }
 }
